@@ -17,7 +17,7 @@ class CountSortExecutor {
   /**
    * Internal method to implement count sort.
    *
-   * Complexity: O(n^2)
+   * Complexity: O(n)
    */
   private static void countSort(int size, int[] arr) {
     int countArr[] = new int[size];
